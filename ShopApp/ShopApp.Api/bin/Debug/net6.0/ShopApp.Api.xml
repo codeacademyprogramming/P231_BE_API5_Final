@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopApp.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ShopApp.Api.Controllers.BrandsController.Create(ShopApp.Service.Dtos.BrandDtos.BrandCreateDto)">
+            <summary>
+            Create a new brand
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/brands
+                {        
+                  "name": "Mike",
+                }
+            </remarks>
+            <param name="brandDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApp.Api.Controllers.ProductsController.Get(System.Int32)">
+            <summary>
+            get a product by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApp.Api.Controllers.ProductsController.Edit(System.Int32,ShopApp.Service.Dtos.ProductDtos.ProductEditDto)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="productDto"></param>
+            <returns></returns>
+            <response code="204">The product has updated successfuly</response>
+            <response code="400">Model is not correct format</response>
+            <response code="404">Product not found by id</response>
+        </member>
+        <member name="T:ShopApp.Api.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ShopApp.Api.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ShopApp.Api.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

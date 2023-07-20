@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\elchin\\Desktop\\CodeLessons\\P231_BE_API_4-main\\ShopApp\\ShopApp.Api\\wwwroot\\uploads\\products\\3cf76822-e147-418d-b85b-d48ab559487dclient-1.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\3cf76822-e147-418d-b85b-d48ab559487dclient-1.png"
+    },
+    {
+      "Id": "C:\\Users\\elchin\\Desktop\\CodeLessons\\P231_BE_API_4-main\\ShopApp\\ShopApp.Api\\wwwroot\\uploads\\products\\d80d794b-008f-4f49-8113-edf19fb34e80blog-grid-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\d80d794b-008f-4f49-8113-edf19fb34e80blog-grid-1.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ShopApp.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ShopApp.Api.props",
+      "PackagePath": "build\\ShopApp.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopApp.Api.props",
+      "PackagePath": "buildMultiTargeting\\ShopApp.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ShopApp.Api.props",
+      "PackagePath": "buildTransitive\\ShopApp.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

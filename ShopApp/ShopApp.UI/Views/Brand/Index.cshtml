@@ -1,0 +1,40 @@
+﻿@model BrandViewModel
+@{
+    ViewData["Title"] = "Index";
+    int order = 0;
+
+}
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <h2>Brands</h2>
+            <a href="@Url.Action("index",new{page=1,search=ViewBag.Search,tagIds=ViewBag.TagIds})" class="btn btn-primary">Reload</a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Brands)
+                    {
+                        order++;
+                        <tr>
+                            <th scope="row">@order</th>
+                            <td>@item.Name</td>
+                            <td>
+                                <a asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                                <a asp-action="delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

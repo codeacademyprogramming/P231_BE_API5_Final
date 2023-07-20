@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "dNi/y3XDHaVwOfdD0sby65uuc+SRZhbxAqsCbUTvQkU=",
+  "Source": "ShopApp.Api",
+  "BasePath": "_content/ShopApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ShopApp.Api\\wwwroot",
+      "Source": "ShopApp.Api",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLessons\\P231_BE_API_4-main\\ShopApp\\ShopApp.Api\\wwwroot\\",
+      "BasePath": "_content/ShopApp.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLessons\\P231_BE_API_4-main\\ShopApp\\ShopApp.Api\\wwwroot\\uploads\\products\\3cf76822-e147-418d-b85b-d48ab559487dclient-1.png",
+      "SourceId": "ShopApp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLessons\\P231_BE_API_4-main\\ShopApp\\ShopApp.Api\\wwwroot\\",
+      "BasePath": "_content/ShopApp.Api",
+      "RelativePath": "uploads/products/3cf76822-e147-418d-b85b-d48ab559487dclient-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\3cf76822-e147-418d-b85b-d48ab559487dclient-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLessons\\P231_BE_API_4-main\\ShopApp\\ShopApp.Api\\wwwroot\\uploads\\products\\d80d794b-008f-4f49-8113-edf19fb34e80blog-grid-1.jpg",
+      "SourceId": "ShopApp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLessons\\P231_BE_API_4-main\\ShopApp\\ShopApp.Api\\wwwroot\\",
+      "BasePath": "_content/ShopApp.Api",
+      "RelativePath": "uploads/products/d80d794b-008f-4f49-8113-edf19fb34e80blog-grid-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\d80d794b-008f-4f49-8113-edf19fb34e80blog-grid-1.jpg"
+    }
+  ]
+}
